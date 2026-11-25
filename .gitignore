@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets & environment variables
+.env
+.env.*
+*.key
+*.pem
+
+# Datasets, raw results, logs, drafts, and paper artifacts (core code repo only)
+data/
+results/
+runs/
+output/
+pilot/
+plan/
+docs/
+paper/
+baselines/MemoryAgentBench/
+WEEK1.md
+原始材料.txt
